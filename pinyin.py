@@ -52,8 +52,6 @@ class PinyinConverter:
 
         # open template.docx 
         document = Document('template.docx')
-        # save as example.docx
-        document.save('example.docx')
         # get the first table in the document
         table = document.tables[0]
         # get width of table
